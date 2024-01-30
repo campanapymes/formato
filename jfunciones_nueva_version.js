@@ -902,7 +902,9 @@ function Agregar_Financimiento_CP() {
                          '       <td>' +
                          '         <select class="form-control" id="Tipo_Prod_CP_' + idx + '" onchange="Calcular_Propuestas_CP();">' +
                          '           <option value="Incremento de Tarjeta Capital de Trabajo">Incremento de Tarjeta Capital de Trabajo</option>' +
-                         '           <option value="Línea Comex">Línea Comex</option>' +
+                         '           <option value="Fondo Impulso MyPerú - Capital de trabajo">Fondo Impulso MyPerú - Capital de trabajo</option>' +
+	    		 '           <option value="Fondo Impulso MyPerú - Subrogación de deuda">Fondo Impulso MyPerú - Subrogación de deuda</option>' +
+	    		 '           <option value="Línea Comex">Línea Comex</option>' +
                          '           <option value="Línea de Dcto de Letras">Línea de Dcto de Letras</option>' +
                          '           <option value="Línea Gracia">Línea Gracia</option>' +
                          '           <option value="Línea Préstamo para capital de trabajo">Línea Préstamo para capital de trabajo</option>' +
@@ -911,9 +913,7 @@ function Agregar_Financimiento_CP() {
                          '           <option value="Subrogación LPCOM">Subrogación LPCOM</option>' +
                          '           <option value="Subrogación PCOM">Subrogación PCOM</option>' +
                          '           <option value="Préstamo para capital de trabajo">Préstamo para capital de trabajo</option>' +
-						 
-	                     '           <option value="Renovación de Línea PCOM">Renovación de Línea PCOM</option>' +
-						 
+	    		 '           <option value="Renovación de Línea PCOM">Renovación de Línea PCOM</option>' +			 
                          '         </select>' +
                          '       </td>' +
                          '     </tr>' +
